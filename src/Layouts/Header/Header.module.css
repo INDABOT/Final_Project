@@ -1,0 +1,35 @@
+.Header {
+  display: flex;
+  max-width: 90vw;
+  background-color: rgba(26, 26, 26, 1);
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px 60px;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Space Grotesk';
+}
+
+.searchBox input {
+    border: none;
+  background-color: rgba(237, 238, 242, 1);
+  width:300px;
+  height:36px;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.Cart_Box .profile {
+    margin-left: 20px;
+}

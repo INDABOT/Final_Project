@@ -1,0 +1,32 @@
+.footer_Container {
+  height: 370px;
+  top: 11598px;
+  padding: 61px 120px 60px 120px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.F_info h5 {
+  color: white;
+  font-family: 'Space Grotesk';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.83px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.F_info ul {
+  list-style-type: none;
+  display: block;
+}
+
+.F_info ul li a {
+  font-family: 'Roboto';
+  font-size: 20px;
+  
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+}

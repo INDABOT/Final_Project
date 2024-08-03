@@ -1,0 +1,128 @@
+.second_Container {
+  padding-top: 100px;
+  max-width: 90vw;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.H_Container {
+  width: 100%;
+  padding: 0 15%;
+  margin-bottom: 80px;
+}
+
+.H_Container h2 {
+  font-family: "Space Grotesk";
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 81.66px;
+  text-align: center;
+}
+
+.H_Container p {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+}
+
+.display_Section {
+  display: flex;
+  gap: 50px;
+}
+
+.display_left,
+.display_right {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.heart {
+  position: absolute;
+}
+
+.page_Number {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.page_Number span {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-size: 28px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(237, 238, 242, 1);
+}
+
+.page_Number span:active{
+  background-color: black;
+  color: white;
+}
+
+.advantage {
+  background-color: white;
+  padding: 50px 0 70px 0;
+  height: 693px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+.take {
+  width: 100%;
+  display: flex;
+  background-color: rgba(237, 238, 242, 1);
+  padding-bottom: 50px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 50px 50px 80px;
+}
+.left h4 {
+  font-family: "Space Grotesk";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 61.25px;
+  text-align: left;
+}
+.left p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+  text-align: left;
+}
+
+.left button {
+  font-family: "Space Grotesk";
+  color: white;
+  background-color: rgba(20, 19, 17, 1);
+  font-weight: 500;
+  width: 190px;
+  height: 63px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  line-height: 30.62px;
+  text-align: center;
+}
+.right {
+  width: 50%;
+}
+.right img {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}

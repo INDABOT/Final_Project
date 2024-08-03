@@ -1,0 +1,46 @@
+.Collections{
+    height: 308px;
+    background: rgba(237, 238, 242, 1);
+    display: flex;
+    position: relative;
+    align-items: center;
+
+
+}
+.Outer{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content:  space-between;
+    gap: 20%;
+    height: 150px;
+    padding: 0 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+
+
+}
+
+.Delivery{
+    display: flex;
+    gap: 10px;
+
+}
+.writeUp{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.writeUp h4{
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 32px;
+}

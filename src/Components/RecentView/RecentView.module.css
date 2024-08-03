@@ -1,0 +1,11 @@
+.RecentView {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.RecentView h3 {
+  font-family: Space Grotesk;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 81.66px;
+  text-align: center;
+}

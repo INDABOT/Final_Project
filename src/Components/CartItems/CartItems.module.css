@@ -1,0 +1,128 @@
+.CartItems_container {
+  display: flex;
+  gap: 50px;
+  width: 90vw;
+  margin: 50px auto;
+}
+hr {
+  background-color: #919191;
+  height: 1px;
+  border: none;
+}
+.product_side {
+  width: 63%;
+}
+.product_side .C_Image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.product_side .C_Image h6 {
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.62px;
+  text-align: left;
+}
+
+.product_side .C_Image p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  text-align: left;
+}
+
+.payment_side {
+  display: flex;
+  justify-content: center;
+  width: 38%;
+  flex-direction: column;
+
+
+}
+.order_summary {
+  padding-left: 60px;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.payment_side .order_summary h6 {
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 45.94px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  gap: 30%;
+  margin-bottom: 40px;
+}
+
+.total span:nth-child(1) {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.41px;
+  text-align: left;
+}
+.total span:nth-child(2) {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.96px;
+  text-align: left;
+}
+
+.payment_side .order_summary button {
+  font-family: "Space Grotesk";
+  color: white;
+  background-color: rgba(20, 19, 17, 1);
+  font-weight: 500;
+  width: 80%;
+  height: 63px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  line-height: 30.62px;
+  text-align: center;
+}
+
+.CardsAccepted {
+  padding: 40px;
+  margin-top: 70px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.CardsAccepted h6 {
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 45.94px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.banks {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.suggestions{
+  width: 90vw;
+  margin: 50px auto;
+}
+.suggestions h5{
+font-family: Space Grotesk;
+font-size: 64px;
+font-weight: 500;
+line-height: 81.66px;
+text-align: left;
+
+}
