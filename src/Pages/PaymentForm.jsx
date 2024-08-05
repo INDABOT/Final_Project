@@ -1,4 +1,5 @@
 import PaymentSection from "../Components/PaymentSection/PaymentSection"
+import Footer from "../Layouts/Footer/Footer"
 import Header from "../Layouts/Header/Header"
 
 const PaymentForm = () => {
@@ -6,6 +7,7 @@ const PaymentForm = () => {
     <div>
         <Header/>
         <PaymentSection />
+        <Footer />
     </div>
   )
 }

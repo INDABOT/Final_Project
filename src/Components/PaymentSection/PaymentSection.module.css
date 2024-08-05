@@ -1,5 +1,6 @@
 .PaymentSection {
   display: flex;
+  gap: 100px;
   width: 90vw;
   margin: 50px auto;
 }
@@ -13,10 +14,75 @@
 }
 .payment_left {
   width: 50%;
+}
+.top {
   border: 1px solid black;
   border-radius: 8px;
   padding: 20px;
 }
+
+.bottom {
+  justify-content: center;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+.bottom h5 {
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 45.94px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.name_field {
+  display: flex;
+  gap: 20%;
+  margin-bottom: 60px;
+}
+.name_field .labelText {
+  width: 36.3%;
+}
+.labelText {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.name_field .labelText input {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+input::placeholder {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+}
+
+.address {
+  margin-bottom: 60px;
+}
+
+.address .labelText input {
+  width: 93%;
+  height: 56px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
 .payment_left .C_Image {
   margin-bottom: 60px;
   display: flex;
@@ -38,4 +104,114 @@
   font-weight: 400;
   line-height: 19.09px;
   text-align: left;
+}
+
+.payment_right {
+  width: 43%;
+}
+.payment_right .top h5 {
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 45.94px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.method {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.method .Rlabel {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.labelText .input {
+  width: 93%;
+  height: 56px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.expiry_field {
+  display: flex;
+  gap: 15%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.expiry_field .labelText {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+}
+.expiry_field .labelText input {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+td {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;
+}
+.Total {
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.41px;
+  text-align: left;
+}
+
+.bottom button {
+  background-color: #141311;
+  color: #fff;
+  width: 90%;
+  height: 55px;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  border: none;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.62px;
+}
+
+
+.terms{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.terms span{
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 28.64px;
+text-align: center;
+
+}
+.terms small{
+    font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: center;
+color: #032FA7;
 }
