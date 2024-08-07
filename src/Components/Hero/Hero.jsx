@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={styles.Text_Area}>
         <h1>
           {" "}
-          Discover <br /> your perfect <span>sneakers</span> here
+          Discover <br /> your perfect <br className={styles.hide} /><span>sneakers</span> here
         </h1>
 
         <p>

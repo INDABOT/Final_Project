@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import menu from "../../assets/menu.svg"
 import logo from "../../assets/logo.svg";
 import cart from "../../assets/Component 4.svg";
 import profile from "../../assets/profileImg.svg";
@@ -7,6 +8,7 @@ const Header = () => {
     <div className={styles.Header}>
       <div className={styles.logo_container}>
         {" "}
+        <img src={menu} alt="" />
         <img src={logo} alt="logo" />
       </div>
       <ul>

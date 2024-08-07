@@ -9,3 +9,17 @@
   line-height: 81.66px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .RecentView {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  .RecentView h3 {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.62px;
+    text-align: center;
+  }
+}

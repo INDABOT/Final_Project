@@ -12,7 +12,7 @@ const BestSeller = () => {
     <>
     <div className={styles.second_Container}>
       <div className={styles.H_Container}>
-        <h2>Explore Our New Collection</h2>
+        <h2>Explore Our New <br className={styles.hide} />  Collection</h2>
         <p>
           Discover our latest arrivals featuring the freshest designs and
           cutting-edge styles. Elevate your sneaker game with our new
@@ -32,7 +32,10 @@ const BestSeller = () => {
           <img src={shoe_4} alt="" />
         </div>
       </div>
-
+{/* 
+      <div className={styles.more}>
+        <button>View</button>
+      </div> */}
       <div className={styles.page_Number}>
         <span>1</span>
         <span>2</span>
@@ -48,7 +51,7 @@ const BestSeller = () => {
     <div className={styles.advantage}>
         <div className={styles.take}>
           <div className={styles.left}>
-            <h4>Take advantage of the  <br />ongoing ‘Buy one Get <br /> One free’</h4>
+            <h4>Take advantage of the  <br  />ongoing ‘Buy one Get <br /> One free’</h4>
             <p>Don't miss out on our incredible 'Buy One, Get One Free' offer! <br /> Double your style and savings with this limited-time deal</p>
             <button>Buy Now</button>
 
