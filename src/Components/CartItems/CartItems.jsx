@@ -36,6 +36,39 @@ const CartItems = () => {
               <p>Size:45, Colour: Pink</p>
             </div>
           </div>
+
+
+
+          <hr />
+          <div className={styles.C_Image}>
+            <img src={C1} alt="" />
+            <div className={styles.info}>
+              <h6>Puma and Lamelo sneakers</h6>
+              <p>Size:45, Colour: Pink</p>
+            </div>
+          </div>
+
+
+
+          <hr />
+          <div className={styles.C_Image}>
+            <img src={C1} alt="" />
+            <div className={styles.info}>
+              <h6>Puma and Lamelo sneakers</h6>
+              <p>Size:45, Colour: Pink</p>
+            </div>
+          </div>
+
+
+
+          <hr />
+          <div className={styles.C_Image}>
+            <img src={C1} alt="" />
+            <div className={styles.info}>
+              <h6>Puma and Lamelo sneakers</h6>
+              <p>Size:45, Colour: Pink</p>
+            </div>
+          </div>
         </div>
 
         <div className={styles.payment_side}>

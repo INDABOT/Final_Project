@@ -5,8 +5,10 @@
   margin: 50px auto;
 }
 hr {
+  display: block;
   background-color: #919191;
   height: 1px;
+  width: 100%;
   border: none;
 }
 .product_side {
@@ -38,8 +40,6 @@ hr {
   justify-content: center;
   width: 38%;
   flex-direction: column;
-
-
 }
 .order_summary {
   padding-left: 60px;
@@ -87,7 +87,7 @@ hr {
   height: 63px;
   padding: 16px 20px;
   border-radius: 8px;
-  border:  none;
+  border: none;
   cursor: pointer;
   font-size: 24px;
   line-height: 30.62px;
@@ -116,15 +116,65 @@ hr {
   flex-wrap: wrap;
 }
 
-.suggestions{
+.suggestions {
   width: 90vw;
   margin: 50px auto;
 }
-.suggestions h5{
-font-family: Space Grotesk;
-font-size: 64px;
-font-weight: 500;
-line-height: 81.66px;
-text-align: left;
+.suggestions h5 {
+  font-family: Space Grotesk;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 81.66px;
+  text-align: left;
+}
+.C_Image {
+  margin-bottom: 20px;
+}
 
+@media screen and (max-width: 600px) {
+  .CartItems_container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .product_side {
+    width: 95%;
+  }
+  .payment_side {
+    width: 100%;
+  }
+  .order_summary {
+    width: 100%;
+  }
+  .payment_side .order_summary h6 {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.62px;
+    text-align: left;
+  }
+
+  .total span:nth-child(1) {
+    font-size: 19px;
+  }
+
+  .total span:nth-child(2) {
+    font-size: 20px;
+  }
+  .CardsAccepted h6 {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.62px;
+    text-align: left;
+  }
+  .suggestions h5 {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.62px;
+    text-align: center;
+  }
 }
